@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>LifeGame</h1>
+    <h2>AI CALcaI</h2>
     <table class="align-center">
       <tr v-for="linha, i in grid" :key="i">
         <td v-for="celula, j in linha" :key="j" :class="{vivo: celula==1}"></td>
